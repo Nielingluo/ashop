@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>show</title>
+</head>
+<body>
+	<h1>访问show模板 hello <{$date}></h1>
+	<h2>
+		<volist  name="date" id="vo">
+			<{$vo.id}>---------<{$vo.name}>---------<{$vo.sex}><br/>
+		</volist>
+	</h2>
+</body>
+</html>
