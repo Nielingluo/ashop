@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>echo date(‘y-m-d h:i:s’,time());

@@ -36,7 +36,6 @@
         function jumpatadd(){
             window.location="/Ashop/index.php/User/atadd";
         }
-       
     </script>
     <!-- add user -->
 </head>
@@ -171,10 +170,10 @@
                         <a href="index.html"><i class="fa fa-fw fa-table"></i> 用户管理</a>
                     </li>
                     <li>
-                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                        <a href="__ROOT__/index.php/Public/error.html"><i class="fa fa-fw fa-edit"></i> 404页面</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+                        <a href="http://localhost/Ashop/index.php/Login/index.html"><i class="fa fa-fw fa-desktop"></i> 登陆</a>
                     </li>
                     <li>
                         <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>

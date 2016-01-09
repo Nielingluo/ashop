@@ -117,6 +117,7 @@
 			$m=M('Article');
 			$m->title=$_POST['title'];
 			$m->content=$_POST['content'];
+            $m->now_time=date('Y:m:d H:i:s',time());
 			$idnum=$m->add();
 			if($idnum>0){
 				$this->success('添加文章成功','atlist');

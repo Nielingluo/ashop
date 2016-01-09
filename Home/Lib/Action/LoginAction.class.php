@@ -22,9 +22,10 @@
 				$this->redirect('User/index');
 			}else{
 				$this->error('该用户不存在');
-
+                
 
 			}
 		}
+       
 	}
 ?>
