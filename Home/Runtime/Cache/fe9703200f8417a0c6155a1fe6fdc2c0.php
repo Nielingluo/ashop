@@ -15,7 +15,7 @@
 <body>
     <div class="row">
         <div class="col-md-5 col-md-offset-3">
-        	<h1>用户登录页面echo $time</h1> 
+        	<h1>用户登录页面</h1> 
         	<a href="__ROOT__/index.php/User/index"><input class="btn btn-info btn-sm" type="button"  value="返回首页"></a><br/><br/>
             <form action='__URL__/do_login' method='post' name='myForm'>
                 <div class="form-group">
@@ -40,7 +40,7 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-default">登陆</button>
-                
+                <a href="__URL__/register.html"><button type="button" class="btn btn-default">注册</button></a>
             </form>
                     
         </div>

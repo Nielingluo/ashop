@@ -5,7 +5,12 @@
 			$arr=$list->order('id desc')->select();
 			//var_dump($arr);
 			$this->assign('data',$arr);
-			$this->display();
+			//判断用户是否登陆 session
+			if(isset($_SESSION['name']) && $_SESSION['name'] != ''){
+				$this->display();
+			}else{
+				$this->redirect('Login/index');
+			}
 		}
 		public function del(){
 			$del=M('User');

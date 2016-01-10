@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -15,9 +15,13 @@
 <body>
     <div class="row">
         <div class="col-md-5 col-md-offset-3">
-        	<h1>用户登录页面</h1> 
+        	<h1>用户注册页面</h1> 
         	<a href="__ROOT__/index.php/User/index"><input class="btn btn-info btn-sm" type="button"  value="返回首页"></a><br/><br/>
-            <form action='__URL__/do_login' method='post' name='myForm'>
+            <form action='__URL__/user_register' method='post' name='myForm'>
+                <div class="form-group">
+                  <label for="email">邮箱</label>
+                  <input type="text" class="form-control" name="email" placeholder="email">
+                </div>
                 <div class="form-group">
                   <label for="username">用户名</label>
                   <input type="text" class="form-control" name="username" placeholder="username">
@@ -39,8 +43,9 @@
                       </div>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-default">登陆</button>
-                <a href="__URL__/register.html"><button type="button" class="btn btn-default">注册</button></a>
+                <button type="submit" class="btn btn-default">提交</button>
+        
+                <a href="__URL__/index"><button type="button" class="btn btn-default">登陆</button></a>
             </form>
                     
         </div>
