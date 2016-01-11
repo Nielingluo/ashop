@@ -59,5 +59,18 @@
 
 		}
        
+       //退出
+		/*将session赋值为空
+		清除session
+		判断session是否是基于cookie的 如果是基于cookie的 那么将cookie也清除掉*/
+       public function dologout(){
+       		$_SESSION=array();
+       		if(isset($_COOKIE[session_name()])){
+       			//setcookie(sessionm名字,赋值为空,让时间过期,全局有效)
+       			setcookie(session_name,'',time()-1,'/');
+       		}
+       		session_destroy();
+       		$this->redirect('User/index');
+       }
 	}
 ?>

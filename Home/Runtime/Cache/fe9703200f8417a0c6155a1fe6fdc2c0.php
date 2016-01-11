@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -35,7 +36,8 @@
                   </div>
                   <div class="col-lg-4">
                       <div class="form-group" style="margin-top:20px;">
-                        <img src="__APP__/Public/code" onclick='this.src=this.src+"?"+Math.random()' width="90" height="40"/>
+                        <img src='__APP__/Public/code' onclick='this.src=this.src+"?"+Math.random()' width=90px height=40px/>
+                        <!-- <img src="__APP__/Public/code" onclick='this.src=this.src+"?"+Math.random()' width="90" height="40"/> -->
                       </div>
                   </div>
                 </div>

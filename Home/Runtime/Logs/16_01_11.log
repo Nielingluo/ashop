@@ -1,0 +1,25 @@
+[ 2016-01-11T21:42:42+08:00 ] ERR: (ThinkException) 无法加载模块:font-awesome
+[ 2016-01-11T21:42:49+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:44:14+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:44:28+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:45:21+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:45:39+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:46:26+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2016-01-11T21:51:49+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:53:00+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:53:28+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:54:23+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:54:26+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T21:54:53+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:14:01+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:14:31+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:16:24+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:16:51+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:35:53+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T22:49:50+08:00 ] ERR: (ThinkException) 非法操作:CSS
+[ 2016-01-11T22:53:00+08:00 ] ERR: (ThinkException) 非法操作:__CSS__
+[ 2016-01-11T22:55:22+08:00 ] ERR: (ThinkException) XML标签语法错误 : width:'90px' height:'40px' 
+[ 2016-01-11T22:55:23+08:00 ] ERR: (ThinkException) 非法操作:__CSS__
+[ 2016-01-11T22:55:35+08:00 ] ERR: (ThinkException) XML标签语法错误 : width:'90px' height:'40px' 
+[ 2016-01-11T22:55:35+08:00 ] ERR: (ThinkException) 非法操作:__CSS__
+[ 2016-01-11T22:59:02+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
