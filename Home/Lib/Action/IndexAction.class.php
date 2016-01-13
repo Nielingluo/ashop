@@ -75,7 +75,8 @@ $m->save($data);
      //$m->delete(6);
      $arr=$m->select();
      $this->assign('data',$arr[0]['name']);
-      var_dump($count);
+     // var_dump($count);
+     dump($arr[0]['name']);
       //echo "$arr";
       $this->display();
     }

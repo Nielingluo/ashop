@@ -23,3 +23,4 @@
 [ 2016-01-11T22:55:35+08:00 ] ERR: (ThinkException) XML标签语法错误 : width:'90px' height:'40px' 
 [ 2016-01-11T22:55:35+08:00 ] ERR: (ThinkException) 非法操作:__CSS__
 [ 2016-01-11T22:59:02+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-11T23:16:43+08:00 ] ERR: (ThinkException) 非法操作:font-awesome

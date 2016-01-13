@@ -9,6 +9,21 @@
     <meta name="author" content="">
     <title>SB Admin - Bootstrap Admin Template</title>
     <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+    <!-- <load href="__JS__/jquery.js">  //标签不闭合 随能正常引用 但下面的alert（）不能正常弹出 -->
+    <script>
+        $(function(){
+            $('input[name="username"]').blur(function(){
+              //alert(1);
+              var username=$(this).val();
+              //alert(username);
+              $.get('__URL__/checkName',{'username':username},function(data){
+                  alert(data);
+
+              });
+            });
+        });
+    </script>
 
 </head>
 
@@ -44,7 +59,6 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-default">提交</button>
-        
                 <a href="__URL__/index"><button type="button" class="btn btn-default">登陆</button></a>
             </form>
                     

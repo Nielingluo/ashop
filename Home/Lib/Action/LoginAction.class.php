@@ -41,23 +41,9 @@
 
 		}
 
-		public function register(){
-			$this->display();
-		}
-		public function user_register(){
-			$m=M('User');
-			$m->email=$_POST['email'];
-			$m->name=$_POST['username'];
-			$m->password=$_POST['password'];
-			$idnum=$m->add();
-			if($idnum){
-				$this->success('注册成功，即将跳转到登陆页面','index');
-			}else{
-				$this->error('注册失败，请稍候重试……');
-			}
-			
+		
 
-		}
+		
        
        //退出
 		/*将session赋值为空

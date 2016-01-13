@@ -42,7 +42,7 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-default">登陆</button>
-                <a href="__URL__/register.html"><button type="button" class="btn btn-default">注册</button></a>
+                <a href="__APP__/Reg/register.html"><button type="button" class="btn btn-default">注册</button></a>
             </form>
                     
         </div>

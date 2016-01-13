@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -9,23 +9,35 @@
     <meta name="author" content="">
     <title>SB Admin - Bootstrap Admin Template</title>
     <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
-    <load href="__PUBLIC__/Js/jquery.js"/>
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
     <!-- <load href="__JS__/jquery.js">  //标签不闭合 随能正常引用 但下面的alert（）不能正常弹出 -->
     <script>
+        var error = new Array();  //看准位置啊！！！
         $(function(){
-            $('input[name="username"]').blur(function(){
+              $('input[name="username"]').blur(function(){
               //alert(1);
               var username=$(this).val();
               //alert(username);
               $.get('__URL__/checkName',{'username':username},function(data){
-                  if(data=="不允许"){  
+                  if(data=="不允许"){ 
+                  error['username']= 1;
                     $('input[name="username"]').after('<p id="umessage" style="color:red">该用户已经注册</p>');
                   }else{
-
+                    error['username']= 0;
+                    $('#umessage').remove();
                   }
 
               });
             });
+
+            //提交表单
+           $('button[name="reg"]').click(function(){
+            if(error['username']==1){
+               return false;
+             }else{
+                $('form[id="myForm"]').submit();
+             }      
+          });
         });
     </script>
 
@@ -42,11 +54,9 @@
                   <input type="text" class="form-control" name="email" placeholder="email">
                 </div>
                 <div class="form-group">
-                  <label for="username">用户名000</label>
+                  <label for="username">用户名</label>
                   <input type="text" class="form-control" name="username" placeholder="username">
-                  <p id="umessage" style="color:red">该用户已经注册</p>
                 </div>
-                <p id="umessage" style="color:red">该用户已经注册</p>
                 <div class="form-group" >
                   <label for="exampleInputPassword1">密码</label>
                   <input type="password" class="form-control" name="password" placeholder="Password">
@@ -55,7 +65,7 @@
                   <div class="col-lg-8">
                       <div class="form-group" >
                         <label for="exampleInputPassword1">验证码</label>
-                        <input type="text" class="form-control" name="code">
+                        <input type="text" class="form-control" name="code" required="required">
                       </div>
                   </div>
                   <div class="col-lg-4">
@@ -64,7 +74,7 @@
                       </div>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-default">提交</button>
+               <button type="submit" class="btn btn-default" name="reg">提交</button> 
                 <a href="__URL__/index"><button type="button" class="btn btn-default">登陆</button></a>
             </form>
                     
