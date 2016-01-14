@@ -6,7 +6,7 @@
 		public function do_login(){
 			//获取用户名密码和数据库比对，有，则允许登陆，没有则返回
 			//dump($_POST);
-			$name=$_POST['username'];
+			$username=$_POST['username'];
 			$password=$_POST['password'];
 			$code=$_POST['code'];
 
@@ -15,12 +15,12 @@
 			}
 
 			$m=M('User');
-			$where['name']=$name;
+			$where['username']=$username;
 			$where['password']=$password;
 			/* 方法一
 			$i=$m->where($where)->count();
 			if($i>0){
-				$_SESSION['name']=$name;
+				$_SESSION['username']=$username;
 				$this->redirect('User/index');
 			}else{
 				$this->error('该用户不存在');   
@@ -31,7 +31,7 @@
 			$arr=$m->where($where)->find();
 			//dump($i);
 			if($arr){
-				$_SESSION['name']=$name;
+				$_SESSION['username']=$username;
 				$_SESSION['id']=$arr['id'];
 				$this->success('登陆成功',U('User/index'));
 			}else{

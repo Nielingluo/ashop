@@ -6,7 +6,7 @@
 			//var_dump($arr);
 			$this->assign('data',$arr);
 			//判断用户是否登陆 session
-			if(isset($_SESSION['name']) && $_SESSION['name'] != ''){
+			if(isset($_SESSION['username']) && $_SESSION['username'] != ''){
 				$this->display();
 			}else{
 				$this->redirect('Login/index');

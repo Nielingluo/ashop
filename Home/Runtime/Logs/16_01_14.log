@@ -1,0 +1,405 @@
+[ 2016-01-14T21:07:10+08:00 ] ERR: (ThinkException) 无法加载模块:index
+[ 2016-01-14T21:26:16+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2016-01-14T21:27:13+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2016-01-14T21:27:31+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=dfsdfa
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.036982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'dfsdfa' ) LIMIT 1   [ RunTime:0.038515s ]
+
+[ 2016-01-14T21:28:28+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=MM
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'MM' ) LIMIT 1   [ RunTime:0.019033s ]
+
+[ 2016-01-14T21:29:36+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=dawang
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.024411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'dawang' ) LIMIT 1   [ RunTime:0.000792s ]
+
+[ 2016-01-14T21:30:43+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin123
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003813s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'admin123' ) LIMIT 1   [ RunTime:0.000511s ]
+
+[ 2016-01-14T21:32:25+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsdfsdfaf
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'adminsdfsdfaf' ) LIMIT 1   [ RunTime:0.000597s ]
+
+[ 2016-01-14T21:32:56+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=sdfdfa
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005007s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'sdfdfa' ) LIMIT 1   [ RunTime:0.001301s ]
+
+[ 2016-01-14T21:33:45+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=sdfasfsdaf
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004187s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006706s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'sdfasfsdaf' ) LIMIT 1   [ RunTime:0.000458s ]
+
+[ 2016-01-14T21:38:28+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=sdfsdf
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'sdfsdf' ) LIMIT 1   [ RunTime:0.000689s ]
+
+[ 2016-01-14T21:42:18+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=888
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.166260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = '888' ) LIMIT 1   [ RunTime:0.000566s ]
+
+[ 2016-01-14T21:43:05+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-14T21:44:29+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=njm22
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004083s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'njm22' ) LIMIT 1   [ RunTime:0.001203s ]
+
+[ 2016-01-14T21:45:17+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=njm22
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'njm22' ) LIMIT 1   [ RunTime:0.000532s ]
+
+[ 2016-01-14T21:45:26+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=njm22
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `name` = 'njm22' ) LIMIT 1   [ RunTime:0.000644s ]
+
+[ 2016-01-14T22:36:32+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsds
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.091161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000431s ]
+
+[ 2016-01-14T22:36:38+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsdssaaaaaaaaa
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.035463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000517s ]
+
+[ 2016-01-14T22:36:41+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=3423
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008948s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000419s ]
+
+[ 2016-01-14T22:36:48+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=er3wrwsdfvdcsxz
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004977s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.021159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000398s ]
+
+[ 2016-01-14T22:37:12+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsdf
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.049452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000394s ]
+
+[ 2016-01-14T22:37:14+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsdfdfs
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002217s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000565s ]
+
+[ 2016-01-14T22:37:50+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminsdfdfs
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.001246s ]
+
+[ 2016-01-14T22:38:09+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000484s ]
+
+[ 2016-01-14T22:38:17+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000504s ]
+
+[ 2016-01-14T22:38:18+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000759s ]
+
+[ 2016-01-14T22:38:19+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2016-01-14T22:38:20+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000472s ]
+
+[ 2016-01-14T22:38:21+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=934792349
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008718s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000448s ]
+
+[ 2016-01-14T22:39:50+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000332s ]
+
+[ 2016-01-14T22:40:16+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=r2387482348236472
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000471s ]
+
+[ 2016-01-14T22:41:03+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=r2387482348236472
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'r2387482348236472' ) LIMIT 1   [ RunTime:0.000701s ]
+
+[ 2016-01-14T22:41:05+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=r2387482348236472
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'r2387482348236472' ) LIMIT 1   [ RunTime:0.000785s ]
+
+[ 2016-01-14T22:41:06+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=r2387482348236472
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'r2387482348236472' ) LIMIT 1   [ RunTime:0.000830s ]
+
+[ 2016-01-14T22:41:10+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000627s ]
+
+[ 2016-01-14T22:41:12+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admindfe
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admindfe' ) LIMIT 1   [ RunTime:0.000478s ]
+
+[ 2016-01-14T22:45:23+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.020126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000464s ]
+
+[ 2016-01-14T22:45:38+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.022394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000561s ]
+
+[ 2016-01-14T22:45:42+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000593s ]
+
+[ 2016-01-14T22:45:43+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006919s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000606s ]
+
+[ 2016-01-14T22:46:32+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004911s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.119125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000719s ]
+
+[ 2016-01-14T22:47:10+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admi
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002217s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.001783s ]
+
+[ 2016-01-14T22:47:49+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admi
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000408s ]
+
+[ 2016-01-14T22:47:53+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admi
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002890s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.021419s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admi' ) LIMIT 1   [ RunTime:0.000462s ]
+
+[ 2016-01-14T22:47:57+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.057844s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.003578s ]
+
+[ 2016-01-14T22:48:08+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007771s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.002136s ]
+
+[ 2016-01-14T22:48:46+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003729s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007736s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000619s ]
+
+[ 2016-01-14T22:48:49+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000751s ]
+
+[ 2016-01-14T22:48:50+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000512s ]
+
+[ 2016-01-14T22:48:51+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005161s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000466s ]
+
+[ 2016-01-14T22:48:53+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000466s ]
+
+[ 2016-01-14T22:48:58+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin33
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin33' ) LIMIT 1   [ RunTime:0.000571s ]
+
+[ 2016-01-14T22:48:59+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin3333
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009456s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin3333' ) LIMIT 1   [ RunTime:0.000557s ]
+
+[ 2016-01-14T22:49:02+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin3333
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.028321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin3333' ) LIMIT 1   [ RunTime:0.001430s ]
+
+[ 2016-01-14T22:49:28+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin3333
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007865s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin3333' ) LIMIT 1   [ RunTime:0.000545s ]
+
+[ 2016-01-14T22:50:27+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007689s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000570s ]
+
+[ 2016-01-14T22:50:37+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admin3333
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin3333' ) LIMIT 1   [ RunTime:0.000780s ]
+
+[ 2016-01-14T22:50:55+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=adminde
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007553s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'adminde' ) LIMIT 1   [ RunTime:0.000506s ]
+
+[ 2016-01-14T22:50:57+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admindeee
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admindeee' ) LIMIT 1   [ RunTime:0.000685s ]
+
+[ 2016-01-14T22:51:00+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admindeee22
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admindeee22' ) LIMIT 1   [ RunTime:0.000771s ]
+
+[ 2016-01-14T22:51:02+08:00 ] 0.0.0.0 /Ashop/index.php/Reg/checkName?username=admi2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admi2' ) LIMIT 1   [ RunTime:0.000429s ]
+
+[ 2016-01-14T22:54:56+08:00 ] ERR: (ThinkException) 非法操作:font-awesome
+[ 2016-01-14T22:55:01+08:00 ] ERR: (ThinkException) 非法操作:font-awesome

@@ -58,14 +58,18 @@
                   <input type="text" class="form-control" name="username" placeholder="username">
                 </div>
                 <div class="form-group" >
-                  <label for="exampleInputPassword1">密码</label>
+                  <label for="Password">密码</label>
                   <input type="password" class="form-control" name="password" placeholder="Password">
                 </div>
+                <!-- <div class="form-group" >
+                  <label for="rePassword">确认密码</label>
+                  <input type="password" class="form-control" name="repassword" placeholder="rePassword">
+                </div> -->
                 <div class="row">
                   <div class="col-lg-8">
                       <div class="form-group" >
                         <label for="exampleInputPassword1">验证码</label>
-                        <input type="text" class="form-control" name="code" required="required">
+                        <input type="text" class="form-control" name="code">
                       </div>
                   </div>
                   <div class="col-lg-4">
@@ -75,7 +79,7 @@
                   </div>
                 </div>
                <button type="submit" class="btn btn-default" name="reg">提交</button> 
-                <a href="__URL__/index"><button type="button" class="btn btn-default">登陆</button></a>
+                <a href="__APP__/User/index"><button type="button" class="btn btn-default">登陆</button></a>
             </form>
                     
         </div>
