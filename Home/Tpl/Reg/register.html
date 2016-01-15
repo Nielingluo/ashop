@@ -61,10 +61,10 @@
                   <label for="Password">密码</label>
                   <input type="password" class="form-control" name="password" placeholder="Password">
                 </div>
-                <!-- <div class="form-group" >
+                 <div class="form-group" >
                   <label for="rePassword">确认密码</label>
                   <input type="password" class="form-control" name="repassword" placeholder="rePassword">
-                </div> -->
+                </div> 
                 <div class="row">
                   <div class="col-lg-8">
                       <div class="form-group" >

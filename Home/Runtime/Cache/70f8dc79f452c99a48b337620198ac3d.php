@@ -168,7 +168,7 @@
             </div>
             <!-- /.navbar-collapse -->
         </nav>
-        <div id="page-wrapper">
+   <div id="page-wrapper">
 
             <div class="container-fluid">
 
@@ -176,14 +176,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            User group
+                            添加文章
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-table"></i> Tables
+                                <i class="fa fa-edit"></i> Add Article
                             </li>
                         </ol>
                     </div>
@@ -191,90 +191,32 @@
                 <!-- /.row -->
 
                 <div class="row">
-                <!--     <div class="col-lg-6">
-                    <h2>Bordered Table</h2>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Page</th>
-                                    <th>Visits</th>
-                                    <th>% New Visits</th>
-                                    <th>Revenue</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>/index.html</td>
-                                    <td>1265</td>
-                                    <td>32.3%</td>
-                                    <td>$321.33</td>
-                                </tr>
-                                <tr>
-                                    <td>/about.html</td>
-                                    <td>261</td>
-                                    <td>33.3%</td>
-                                    <td>$234.12</td>
-                                </tr>
-                                <tr>
-                                    <td>/sales.html</td>
-                                    <td>665</td>
-                                    <td>21.3%</td>
-                                    <td>$16.34</td>
-                                </tr>
-                                <tr>
-                                    <td>/blog.html</td>
-                                    <td>9516</td>
-                                    <td>89.3%</td>
-                                    <td>$1644.43</td>
-                                </tr>
-                                <tr>
-                                    <td>/404.html</td>
-                                    <td>23</td>
-                                    <td>34.3%</td>
-                                    <td>$23.52</td>
-                                </tr>
-                                <tr>
-                                    <td>/services.html</td>
-                                    <td>421</td>
-                                    <td>60.3%</td>
-                                    <td>$724.32</td>
-                                </tr>
-                                <tr>
-                                    <td>/blog/post.html</td>
-                                    <td>1233</td>
-                                    <td>93.2%</td>
-                                    <td>$126.34</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div> -->
-                    <div class="col-lg-10">
-                        <!-- <h2>All User List</h2> -->
-                        <button class="btn btn-default" type="submit" onclick="jump()">添加用户</button><br><br>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-hover table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Id</th>
-                                        <th>Name</th>
-                                        <th>Sex</th>
-                                        <th>操作</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                            <td><?php echo ($vo["id"]); ?></td>
-                                            <td><a href="__URL__/info?id=<?php echo ($vo["id"]); ?>"><?php echo ($vo["username"]); ?></a></td>
-                                            <td><?php echo ($vo["sex"]); ?></td>
-                                            <td><a href="/Ashop/index.php/User/modify/id/<?php echo ($vo["id"]); ?>">修改</a> | <a href="/Ashop/index.php/User/del/id/<?php echo ($vo["id"]); ?>">删除</a></td>
-                                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="col-lg-8">
+
+                        <form role="form" action='__URL__/create' method="post" enctype="multipart/form-data">
+
+                            <div class="form-group">
+                                <label>标题</label>
+                                <input class="form-control" name="title">
+                            </div>
+                             <div class="form-group">
+                                <label>Text area</label>
+                                <textarea class="form-control" rows="10" name="content"></textarea>
+                            </div>
+                             <div class="form-group">
+                                <label>上传附件</label>
+                                <input type="file"  name="filename"></input>
+                            </div>
+                          
+                
+                            <button type="submit" class="btn btn-default">添加</button>
+                            <button type="reset" class="btn btn-default">重置</button>
+
+                        </form>
+
                     </div>
                 </div>
+                <!-- /.row -->
 
             </div>
             <!-- /.container-fluid -->

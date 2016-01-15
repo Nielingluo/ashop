@@ -35,7 +35,7 @@
 		public function update(){
 			$m=M('user');
 			$data['id']=$_POST['id'];
-			$data['name']=$_POST['name'];
+			$data['username']=$_POST['username'];
 			$data['sex']=$_POST['sex'];
 			$count=$m->save($data);
 			if($count>0){
